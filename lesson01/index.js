@@ -1,10 +1,7 @@
-const express = require('express');
-const app = express();
+const routes = require('express').Router();
 
-app.get('/', (req,res) => {
-    res.send('Marlayna Eliza Moser')
-})
+routes.get('/', (req, res) => {
+  res.send('Marlayna Eliza Moser');
+});
 
-app.listen(3000, () => {
-    console.log('Server started on port 3000')  
-})
+module.exports = routes;
