@@ -1,0 +1,36 @@
+
+{
+"Contacts":[
+    {    
+      "firstName": "Jacob",
+      "lastName":"Moser",
+      "email":"jakedee@gmail.com",
+      "favoriteColor":"green",
+      "birthday":"March 14, 1986"
+   },
+
+   {
+     "firstName": "Jarod",
+     "lastName":"Moser",
+     "email":"jrod@acl.com",
+     "favoriteColor":"blue",
+     "birthday":"September 1, 1989"
+   },
+
+   {
+      "firstName": "Marlayna Eliza",
+      "lastName":"Moser",
+      "email":"layna78@gmail.com",
+      "favoriteColor":"lavendar",
+      "birthday":"January 28, 1991"
+   },
+
+   {
+      "firstName": "Marlayna Eliza",
+      "lastName":"Moser",
+      "email":"layna78@gmail.com",
+      "favoriteColor":"lavendar",
+      "birthday":"January 28, 1991"
+   }
+  ]
+}
