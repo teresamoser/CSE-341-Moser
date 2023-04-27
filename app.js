@@ -13,7 +13,7 @@ app
   })
   .use('/', require('./routes'));
 
-mongodb.initDb((err, mongodb) => {
+mongodb.initDb((err, _mongodb) => {
   if (err) {
     console.log(err);
   } else {
