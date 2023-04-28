@@ -1,5 +1,5 @@
-const nameFunction = (req, res, next) => {
-    res.json('Marlayna Eliza Moser');
-}
+// const nameFunction = (req, res, next) => {
+//     res.json('Marlayna Eliza Moser');
+// }
 
-module.exports = { nameFunction };
+// module.exports = { nameFunction };
