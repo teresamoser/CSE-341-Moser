@@ -1,6 +1,6 @@
 //LOCALHOST
 ###
-GET https://localhost:8080/cse-341-moser.onrender.com/contacts
+GET https://localhost:8080/cse-341-moser/contacts
 
 ###
 GET https://localhost:8080/cse-341-moser
