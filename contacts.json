@@ -1,31 +1,31 @@
 
-
-    ["Contact1",{    
+{
+    "Contact1":{    
       "firstName": "Jacob Dee",
       "lastName":"Moser",
       "email":"jakedee@gmail.com",
       "favoriteColor":"green",
       "birthday":"March 14, 1986"
      },
-   "Contact2",{
+   "Contact2":{
      "firstName": "Jarod Ryan",
      "lastName":"Moser",
      "email":"jrod@acol.com",
      "favoriteColor":"blue",
      "birthday":"September 1, 1989"
      },
-   "Contact3",{
+   "Contact3":{
       "firstName": "Marlayna Eliza",
       "lastName":"Moser",
       "email":"layna78@gmail.com",
       "favoriteColor":"lavendar",
       "birthday":"January 28, 1991"
      },
-   "Contact4",{
+   "Contact4":{
       "firstName": "Heather Rose",
       "lastName":"Moser",
       "email":"jazzmoser@gmail.com",
       "favoriteColor":"Hunter Green",
       "birthday":"March 18, 1996"
-    } ]
-
+    } 
+}
