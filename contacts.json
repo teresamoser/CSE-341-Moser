@@ -1,5 +1,6 @@
 
 {
+  [
     "Contact1":{    
       "firstName": "Jacob Dee",
       "lastName":"Moser",
@@ -28,4 +29,5 @@
       "favoriteColor":"Hunter Green",
       "birthday":"March 18, 1996"
     } 
+  ]
 }
