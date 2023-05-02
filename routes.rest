@@ -1,8 +1,9 @@
 //LOCALHOST
 ###
-GET https://localhost:8080/cse-341-moser/contacts
+GET https://localhost:8080/contacts HTTP/1.1
 
 ###
-GET https://localhost:8080/cse-341-moser
+GET https://localhost:8080/cse341-test.onrender.com/contacts HTTP/1.1
+
 
 
