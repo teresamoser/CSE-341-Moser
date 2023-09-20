@@ -2,25 +2,7 @@
 ###
 GET http://localhost:3000/ HTTP/1.1
 ###
-GET http://localhost:8080/contacts HTTP/1.1
-###
-GET http://localhost:8080/contacts/64549aebf90e11522ae177b7 HTTP/1.1
-###
-GET http://localhost:8080/contacts/64549b5ef90e11522ae177b8 HTTP/1.1
-###
-GET http://localhost:8080/contacts/64549b82f90e11522ae177b9 HTTP/1.1
-###
-Get http://localhost:8080/contacts/64549bc9f90e11522ae177ba HTTP/1.1
-###
+GET https://teresalesson01.onrender.com HTTP/1.1
+
 
 //PRODUCTION Deploy
-
-GET https://cse-341-moser.onrender.com/contacts HTTP/1.1
-###
-GET http://cse-341-moser.onrender.com/contacts/64549aebf90e11522ae177b7 HTTP/1.1
-###
-GET http://cse-341-moser.onrender.com/contacts/64549b5ef90e11522ae177b8 HTTP/1.1
-###
-GET http://cse-341-moser.onrender.com/contacts/64549b82f90e11522ae177b9 HTTP/1.1
-###
-Get http://cse-341-moser.onrender.com/contacts/64549bc9f90e11522ae177ba HTTP/1.1
