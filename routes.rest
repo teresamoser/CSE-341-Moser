@@ -2,17 +2,16 @@
 ###
 GET http://localhost:3000/ HTTP/1.1
 ###
-GET http://localhost:3000/contacts HTTP/1.1
+GET http://localhost:3000/contacts/ HTTP/1.1
 ###
-GET http://localhost:3000/contacts/650b9e45d7cae14ab0345b7c HTTP/1.1
+GET http://localhost:3000/contacts/650b9e45d7cae14ab0345b7c/ HTTP/1.1
 ###
-GET http://localhost:3000/contacts/650b9e45d7cae14ab0345b7d HTTP/1.1
+GET http://localhost:3000/contacts/650b9e45d7cae14ab0345b7d/ HTTP/1.1
 ###
-GET http://localhost:3000/contacts/650b9e45d7cae14ab0345b7e HTTP/1.1
+GET http://localhost:3000/contacts/650b9e45d7cae14ab0345b7e/ HTTP/1.1
 ###
-GET http://localhost:3000/contacts/650b9e45d7cae14ab0345b7f HTTP/1.1
-###
-GET https://localhost:3000/ HTTP/1.1
+GET http://localhost:3000/contacts/650b9e45d7cae14ab0345b7f/ HTTP/1.1
+
 
 
 //PRODUCTION Deploy
