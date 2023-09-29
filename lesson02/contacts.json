@@ -1,6 +1,5 @@
 [
-    { 
-      "Contact": "1",  
+    {  
       "firstName": "Jacob Dee",
       "lastName":"Moser",
       "email":"jakedee@gmail.com",
@@ -8,7 +7,6 @@
       "birthday":"March 14, 1986"
      },
     {
-     "Contact": "2",
      "firstName": "Jarod Ryan",
      "lastName":"Moser",
      "email":"jrod@acol.com",
@@ -16,7 +14,6 @@
      "birthday":"September 1, 1989"
      },
     {
-      "Contact": "3",
       "firstName": "Marlayna Eliza",
       "lastName":"Moser",
       "email":"layna78@gmail.com",
@@ -24,7 +21,6 @@
       "birthday":"January 28, 1991"
      },
     {
-      "Contact":"4",
       "firstName": "Heather Rose",
       "lastName":"Moser",
       "email":"jazzmoser@gmail.com",
