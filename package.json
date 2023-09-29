@@ -24,9 +24,5 @@
     "eslint-plugin-prettier": "^4.2.1",
     "nodemon": "^3.0.1",
     "prettier": "^2.8.8"
-  },
-  "lint": {
-    "lint:fix": "eslint --fix",
-    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
   }
 }
