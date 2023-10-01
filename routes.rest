@@ -2,15 +2,15 @@
 ###
 GET http://localhost:3000 HTTP/1.1
 ###Get all contacts 
-GET http://localhost:3000/contacts
+GET http://localhost:3000/contacts HTTP/1.1
 ###
-GET http://localhost:3000/contacts/650b9e45d7cae14ab0345b7c HTTP/1.1
+GET http://localhost:3000/contacts/6518c215d7cae14ab0f97e0f HTTP/1.1
 ###
-GET http://localhost:3000/contacts/650b9e45d7cae14ab0345b7d HTTP/1.1
+GET http://localhost:3000/contacts/6518c215d7cae14ab0f97e10 HTTP/1.1
 ###
-GET http://localhost:3000/contacts/650b9e45d7cae14ab0345b7e HTTP/1.1
+GET http://localhost:3000/contacts/6518c215d7cae14ab0f97e11 HTTP/1.1
 ###
-GET http://localhost:3000/contacts/650b9e45d7cae14ab0345b7f HTTP/1.1
+GET http://localhost:3000/contacts/6518c215d7cae14ab0f97e12 HTTP/1.1
 
 
 
@@ -20,10 +20,81 @@ GET https://lesson02-ybz1.onrender.com HTTP/1.1
 ###
 GET https://lesson02-ybz1.onrender.com/contacts HTTP/1.1
 ###
-GET https://teresalesson01.onrender.com/contacts/650b9e45d7cae14ab0345b7c HTTP/1.1
+GET https://lesson02-ybz1.onrender.com/contacts/6518c215d7cae14ab0f97e0f HTTP/1.1
 ###
-GET https://lesson02-ybz1.onrender.com/contacts/650b9e45d7cae14ab0345b7d  HTTP/1.1
+GET https://lesson02-ybz1.onrender.com/contacts/6518c215d7cae14ab0f97e10  HTTP/1.1
 ###
-GET https://lesson02-ybz1.onrender.com/contacts/650b9e45d7cae14ab0345b7e HTTP/1.1
+GET https://lesson02-ybz1.onrender.com/contacts/6518c215d7cae14ab0f97e11 HTTP/1.1
 ###
-GET https://lesson02-ybz1.onrender.com/contacts/650b9e45d7cae14ab0345b7f HTTP/1.1
+GET https://lesson02-ybz1.onrender.com/contacts/6518c215d7cae14ab0f97e12 HTTP/1.1
+
+
+//LOCALHOST
+
+### Create contact
+POST http://localhost:3000/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Luke",
+    "lastName":"Skywalker",
+    "email":"forcebe@withU.com",
+    "favoriteColor":"Blue",
+    "birthday":"Aug 7, 2088"
+}
+
+
+### PUT contact
+PUT http://localhost:3000/contacts/6518c215d7cae14ab0f97e0f HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Jacob Dee",
+    "lastName":"Moser",
+    "email":"jakedee@gmail.com",
+    "favoriteColor":"green",
+    "birthday":"March 14, 1986"
+}
+### DELETE contact
+DELETE http://localhost:3000/contacts/6518c44875f3215b840df8ff HTTP/1.1
+
+
+
+// PRODUCTION Deploy
+
+### Get all contacts
+GET https://lesson02-ybz1.onrender.com/contacts
+
+
+### Get contact by id
+GET https://lesson02-ybz1.onrender.com/contacts/6518c215d7cae14ab0f97e0f
+
+
+### Create contact
+POST https://lesson02-ybz1.onrender.com/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Luke",
+    "lastName":"Skywalker",
+    "email":"forcebewithU.com",
+    "favoriteColor":"Blue",
+    "birthday":"Aug 7, 2088"
+}
+
+
+### PUT contact
+PUT https://lesson02-ybz1.onrender.com/contacts/6518c215d7cae14ab0f97e0f HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Jake",
+    "lastName":"Moser",
+    "email":"jakedee@hotmail.com",
+    "favoriteColor":"green",
+    "birthday":"03/14/1986"
+}
+
+
+### DELETE contact
+DELETE https://lesson02-ybz1.onrender.com/contacts/6518c4b5dc030a3141edd2cb HTTP/1.1
