@@ -5,7 +5,7 @@
     "description": "Contacts API",
     "version": "1.0.0"
   },
-  "host": "lesson02-ybz1.onrender.com",
+  "host": "lesson02-h97q.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
